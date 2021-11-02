@@ -11,30 +11,46 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
+
   <body>
     <header>
       <nav>
-        <!-- Логотип -->
-        <a href="">WebStudio</a>
+        <!--Logo-->
+        <a href="./" class="logo">Web<span class="logo-black">Studio</span></a>
 
-        <!-- Навигация -->
-        <ul>
-          <li><a href="./index.html">Студия</a></li>
-          <li><a href="./portfolio.html">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+        <!--Navigation-->
+        <ul class="site-nav">
+          <li><a href="./index.html" class="link">Студия</a></li>
+          <li><a href="./portfolio.html" class="link">Портфолио</a></li>
+          <li><a href="" class="link">Контакты</a></li>
         </ul>
       </nav>
 
-      <!-- Контакты -->
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a href="tel:+380961111111">+38 096 111 11 11</a>
+      <!--Contacts-->
+      <ul class="social-links">
+        <li>
+          <a href="mailto:info@devstudio.com" class="link"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+        </li>
+      </ul>
     </header>
 
     <main>
-      <!--Buttions-->
-      <section>
+      <!--Buttons-->
+      <section class="portfolio-button">
         <ul>
           <li>
             <button type="button">Все</button>
@@ -55,62 +71,70 @@
       </section>
 
       <!--Gallery-->
-      <section>
+      <section class="portfolio-gallery">
         <ul>
           <li>
             <img src="./images/img-1.jpg" alt="картинка 1" width="370" />
-            <p>Технокряк</p>
+            <h2>Технокряк</h2>
             <p>Веб-сайт</p>
           </li>
           <li>
             <img src="./images/img-2.jpg" alt="картинка 2" width="370" />
-            <p>Постер <span lang="eng">New Orlean vs Golden Star</span></p>
+            <h2>Постер <span lang="eng">New Orlean vs Golden Star</span></h2>
             <p>Дизайн</p>
           </li>
           <li>
             <img src="./images/img-3.jpg" alt="картинка 3" width="370" />
-            <p>Ресторан <span lang="eng">Seafood</span></p>
+            <h2>Ресторан <span lang="eng">Seafood</span></h2>
             <p>Приложение</p>
           </li>
           <li>
             <img src="./images/img-4.jpg" alt="картинка 4" width="370" />
-            <p>Проект <span lang="eng">Prime</span></p>
+            <h2>Проект <span lang="eng">Prime</span></h2>
             <p>Маркетинг</p>
           </li>
           <li>
             <img src="./images/img-5.jpg" alt="картинка 5" width="370" />
-            <p>Проект <span lang="eng">Boxes</span></p>
+            <h2>Проект <span lang="eng">Boxes</span></h2>
             <p>Приложение</p>
           </li>
           <li>
             <img src="./images/img-6.jpg" alt="картинка 6" width="370" />
-            <p lang="eng">Inspiration has no Borders</p>
+            <h2 lang="eng">Inspiration has no Borders</h2>
             <p>Веб-сайт</p>
           </li>
           <li>
             <img src="./images/img-7.jpg" alt="картинка 7" width="370" />
-            <p>Издание <span lang="eng">Limited Edition</span></p>
+            <h2>Издание <span lang="eng">Limited Edition</span></h2>
             <p>Дизайн</p>
           </li>
           <li>
             <img src="./images/img-8.jpg" alt="картинка 8" width="370" />
-            <p>Проект <span lang="eng">LAB</span></p>
+            <h2>Проект <span lang="eng">LAB</span></h2>
             <p>Маркетинг</p>
           </li>
           <li>
             <img src="./images/img-9.jpg" alt="картинка 9" width="370" />
-            <p lang="eng">Growing Business</p>
+            <h2 lang="eng">Growing Business</h2>
             <p>Приложение</p>
           </li>
         </ul>
       </section>
     </main>
 
-    <footer>
-      <a href="">WebStudio</a>
-      <address>г. Киев, пр-т Леси Украинки, 26</address>
-      <a href="mailto:info@example.com">info@example.com</a> <br />
-      <a href="tel:+380991111111">+38 099 111 11 11</a>
+    <footer class="footer">
+      <a href="./" class="logo">Web<span class="logo-white">Studio</span></a>
+      <ul class="footer-links">
+        <li>
+          <address>г. Киев, пр-т Леси Украинки, 26</address>
+        </li>
+        <li>
+          <a href="mailto:info@example.com">info@example.com</a>
+        </li>
+        <li>
+          <a href="tel:+380991111111">+38 099 111 11 11</a>
+        </li>
+      </ul>
     </footer>
   </body>
 </html>

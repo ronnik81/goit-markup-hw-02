@@ -1,3 +1,146 @@
 body {
   font-family: "Roboto", sans-serif;
+  background: #ffffff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.logo {
+  font-family: Raleway;
+  font-size: 26px;
+  color: #2196f3;
+  text-decoration: none;
+}
+
+.logo-black {
+  font-family: Raleway;
+  font-size: 26px;
+  color: black;
+  text-decoration: none;
+}
+
+.logo-white {
+  font-family: Raleway;
+  font-size: 26px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.site-nav .link {
+  font-size: 14px;
+  font-weight: 500;
+  color: #212121;
+  text-decoration: none;
+}
+
+.site-nav .link:hover {
+  font-size: 14px;
+  font-weight: 500;
+  color: #2196f3;
+}
+
+.social-links .link {
+  font-size: 14px;
+  font-weight: 500;
+  color: #757575;
+}
+
+.social-links .link:hover {
+  font-size: 14px;
+  font-weight: 500;
+  color: #2196f3;
+}
+
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  color: #ffffff;
+}
+
+.button {
+  background-color: #2196f3;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.features h1 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #212121;
+  text-transform: uppercase;
+}
+
+.features p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #757575;
+}
+
+.main-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #212121;
+}
+
+.team {
+  background-color: #f5f4fa;
+}
+
+.team h3 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #212121;
+}
+
+.team p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575;
+}
+
+.footer {
+  background-color: #2f303a;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #acacb0;
+}
+
+.footer-links address {
+  font-style: normal;
+  color: #ffffff;
+}
+
+.portfolio-button button {
+  background-color: #f5f4fa;
+  font-size: 16px;
+  font-weight: 500;
+  color: #212121;
+}
+
+.portfolio-button button:hover {
+  background-color: #2196f3;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.portfolio-gallery h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #212121;
+}
+
+.portfolio-gallery p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575;
 }
