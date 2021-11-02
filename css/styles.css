@@ -35,7 +35,8 @@ ul {
   text-decoration: none;
 }
 
-.site-nav .link:hover {
+.site-nav .link:hover,
+.site-nav .link:focus {
   font-size: 14px;
   font-weight: 500;
   color: #2196f3;
@@ -47,7 +48,8 @@ ul {
   color: #757575;
 }
 
-.social-links .link:hover {
+.social-links .link:hover,
+.social-links .link:focus {
   font-size: 14px;
   font-weight: 500;
   color: #2196f3;
@@ -126,7 +128,8 @@ ul {
   color: #212121;
 }
 
-.portfolio-button button:hover {
+.portfolio-button button:hover,
+.portfolio-button button:focus {
   background-color: #2196f3;
   font-size: 16px;
   font-weight: 500;
