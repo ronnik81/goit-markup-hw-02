@@ -1,3 +1,10 @@
+:root {
+  --brand-color-main: #212121;
+  --brand-color-text: #757575;
+  --brand-color-focus: #2196f3;
+  --brand-background-color: #2f303a;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   background: #ffffff;
@@ -10,7 +17,7 @@ ul {
 .logo {
   font-family: Raleway;
   font-size: 26px;
-  color: #2196f3;
+  color: var(--brand-color-focus);
   text-decoration: none;
 }
 
@@ -28,67 +35,70 @@ ul {
   text-decoration: none;
 }
 
-.site-nav .link {
+.site-nav a {
   font-size: 14px;
   font-weight: 500;
-  color: #212121;
+  color: var(--brand-color-main);
   text-decoration: none;
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav a:hover,
+.site-nav a:focus {
   font-size: 14px;
   font-weight: 500;
-  color: #2196f3;
+  color: var(--brand-color-focus);
 }
 
-.social-links .link {
+.contact-links a {
   font-size: 14px;
   font-weight: 500;
-  color: #757575;
+  color: var(--brand-color-text);
+  text-decoration: none;
 }
 
-.social-links .link:hover,
-.social-links .link:focus {
+.contact-links a:hover,
+.contact-links a:focus {
   font-size: 14px;
   font-weight: 500;
-  color: #2196f3;
+  color: var(--brand-color-focus);
 }
 
 .hero {
-  background-color: #2f303a;
+  background-color: var(--brand-background-color);
 }
 
-.hero-title {
+.hero h1 {
   font-weight: 900;
   font-size: 44px;
+  line-height: 1.36;
   color: #ffffff;
 }
 
-.button {
-  background-color: #2196f3;
+.hero button {
+  background-color: var(--brand-color-focus);
   color: #ffffff;
   font-weight: 700;
   font-size: 16px;
+  cursor: pointer;
 }
 
-.features h1 {
+.features h3 {
   font-size: 14px;
   font-weight: 700;
-  color: #212121;
+  color: var(--brand-color-main);
   text-transform: uppercase;
 }
 
 .features p {
   font-size: 14px;
-  font-weight: 400;
-  color: #757575;
+  color: var(--brand-color-text);
+  line-height: 1.71;
 }
 
 .main-title {
   font-size: 36px;
   font-weight: 700;
-  color: #212121;
+  color: var(--brand-color-main);
 }
 
 .team {
@@ -98,39 +108,47 @@ ul {
 .team h3 {
   font-size: 16px;
   font-weight: 500;
-  color: #212121;
+  color: var(--brand-color-main);
 }
 
 .team p {
   font-size: 16px;
-  font-weight: 400;
-  color: #757575;
+  color: var(--brand-color-text);
 }
 
 .footer {
-  background-color: #2f303a;
-}
-
-.footer-links a {
-  text-decoration: none;
-  color: #acacb0;
+  background-color: var(--brand-background-color);
 }
 
 .footer-links address {
+  size: 14px;
   font-style: normal;
   color: #ffffff;
+}
+
+.footer-links a {
+  font-size: 14px;
+  color: #acacb0;
+  text-decoration: none;
+}
+
+.footer-links a:hover,
+.footer-links a:focus {
+  font-size: 14px;
+  color: var(--brand-color-focus);
 }
 
 .portfolio-button button {
   background-color: #f5f4fa;
   font-size: 16px;
   font-weight: 500;
-  color: #212121;
+  color: var(--brand-color-main);
+  cursor: pointer;
 }
 
 .portfolio-button button:hover,
 .portfolio-button button:focus {
-  background-color: #2196f3;
+  background-color: var(--brand-color-focus);
   font-size: 16px;
   font-weight: 500;
   color: #ffffff;
@@ -139,11 +157,10 @@ ul {
 .portfolio-gallery h2 {
   font-size: 18px;
   font-weight: 700;
-  color: #212121;
+  color: var(--brand-color-main);
 }
 
 .portfolio-gallery p {
   font-size: 16px;
-  font-weight: 400;
-  color: #757575;
+  color: var(--brand-color-text);
 }
