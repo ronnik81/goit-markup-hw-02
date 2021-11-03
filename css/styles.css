@@ -17,6 +17,8 @@ ul {
 .logo {
   font-family: Raleway;
   font-size: 26px;
+  line-height: 1.38;
+  letter-spacing: 0.03em;
   color: var(--brand-color-focus);
   text-decoration: none;
 }
@@ -24,6 +26,8 @@ ul {
 .logo-black {
   font-family: Raleway;
   font-size: 26px;
+  line-height: 1.38;
+  letter-spacing: 0.03em;
   color: black;
   text-decoration: none;
 }
@@ -35,31 +39,37 @@ ul {
   text-decoration: none;
 }
 
-.site-nav a {
+.site-nav {
   font-size: 14px;
   font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+}
+
+.site-nav a {
   color: var(--brand-color-main);
   text-decoration: none;
 }
 
 .site-nav a:hover,
 .site-nav a:focus {
-  font-size: 14px;
-  font-weight: 500;
   color: var(--brand-color-focus);
 }
 
-.contact-links a {
+.contact-links {
   font-size: 14px;
   font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+}
+
+.contact-links a {
   color: var(--brand-color-text);
   text-decoration: none;
 }
 
 .contact-links a:hover,
 .contact-links a:focus {
-  font-size: 14px;
-  font-weight: 500;
   color: var(--brand-color-focus);
 }
 
@@ -71,7 +81,9 @@ ul {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  letter-spacing: 0.06em;
   color: #ffffff;
+  text-transform: uppercase;
 }
 
 .hero button {
@@ -79,25 +91,32 @@ ul {
   color: #ffffff;
   font-weight: 700;
   font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
   cursor: pointer;
 }
 
 .features h3 {
   font-size: 14px;
   font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   color: var(--brand-color-main);
   text-transform: uppercase;
 }
 
 .features p {
   font-size: 14px;
-  color: var(--brand-color-text);
   line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--brand-color-text);
 }
 
 .main-title {
   font-size: 36px;
   font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   color: var(--brand-color-main);
 }
 
@@ -108,11 +127,15 @@ ul {
 .team h3 {
   font-size: 16px;
   font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   color: var(--brand-color-main);
 }
 
 .team p {
   font-size: 16px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   color: var(--brand-color-text);
 }
 
@@ -122,26 +145,37 @@ ul {
 
 .footer-links address {
   font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
   font-style: normal;
   color: #ffffff;
 }
 
-.footer-links a {
+.footer-links {
   font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.footer-links a {
   color: #acacb0;
   text-decoration: none;
 }
 
 .footer-links a:hover,
 .footer-links a:focus {
-  font-size: 14px;
   color: var(--brand-color-focus);
 }
 
 .portfolio-button button {
-  background-color: #f5f4fa;
   font-size: 16px;
   font-weight: 500;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+}
+
+.portfolio-button button {
+  background-color: #f5f4fa;
   color: var(--brand-color-main);
   cursor: pointer;
 }
@@ -149,18 +183,20 @@ ul {
 .portfolio-button button:hover,
 .portfolio-button button:focus {
   background-color: var(--brand-color-focus);
-  font-size: 16px;
-  font-weight: 500;
   color: #ffffff;
 }
 
 .portfolio-gallery h2 {
   font-size: 18px;
   font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
   color: var(--brand-color-main);
 }
 
 .portfolio-gallery p {
   font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
   color: var(--brand-color-text);
 }
